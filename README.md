@@ -1,6 +1,8 @@
 # GTA5-Steam-Epic-Symlinker
 Dumb script to symlink GTA5 from your Steam library to your Epic Games library
 
+# This will save you nearly 90GB of disk space (GTA5 via Steam and Epic Games from one installation)
+
 # Please read through the script and instructions so you know what it's doing. It runs as Administrator and could potentially cause issues in your Steam/Epic Games libraries if not ran properly. I take no responsibility for any data loss.
 
 # Requirements
