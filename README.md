@@ -3,7 +3,7 @@ Dumb script to symlink GTA5 from your Steam library to your Epic Games library
 
 # This will save you nearly 90GB of disk space (GTA5 via Steam and Epic Games from one installation)
 
-# Please read through the script and instructions so you know what it's doing. It runs as Administrator and could potentially cause issues in your Steam/Epic Games libraries if not ran properly. I take no responsibility for any data loss.
+# Please read through the script and instructions so you know what it's doing. This script could potentially cause issues in your Steam/Epic Games libraries if not ran properly. I take no responsibility for any data loss.
 
 # Requirements
  * GTA 5 purchased on Steam and Epic Games
@@ -13,7 +13,7 @@ Dumb script to symlink GTA5 from your Steam library to your Epic Games library
 
 # Instructions
 1. Begin a clean installation of GTA5 from Epic Games. When you've downloaded about 20MB, completely exit Epic Games.
-2. Drop symlinker.bat in your Steam GTA5 folder and run it as Administrator.
+2. Drop symlinker.bat in your Steam GTA5 folder and run it.
 3. When prompted, paste in your GTAV folder location from Epic Games (mine is E:\Epic Games\GTAV) and press enter.
 4. Double check you entered the correct directory and press Y if it is correct. Press N to return back and re-enter the path.
 5. When you see "Process complete!", you should have all of the game's .rpf files in your Epic Games GTAV folder. These are not copies, they are mirrors of the original files.
