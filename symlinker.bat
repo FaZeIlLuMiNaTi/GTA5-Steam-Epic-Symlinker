@@ -3,22 +3,7 @@
 	rem Set the working directory to the one we laucnhed from - running as admin changes the directory to system32 usually.
 	rem Then check the permissions of this script - are we running as admin?
 	pushd %~dp0
-	goto check_permissions
-
-:check_permissions
-	echo Administrative permissions required. Detecting permissions...
-	net session >nul 2>&1
-	rem If the above command exited with a 0, it means we're administrator, continue.
-	if %errorLevel% == 0 (
-		echo Process is running as administrator, continuing...
-		goto get_new_path
-	) else (
-		rem We aren't admin
-		echo Please relaunch as administrator.
-		goto end
-	)
-	rem Shouldn't ever make it here.
-	pause >nul
+	goto get_new_path
 
 :get_new_path
 	rem Get the user to enter the path of their Epic Games GTA folder.
